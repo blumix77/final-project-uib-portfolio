@@ -1,16 +1,17 @@
 /* TEMPLATE */
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-
+:root {
+    font-size: 16px;
+}
 
 * {
     box-sizing: border-box;
     font-family: 'Michroma', sans-serif;
-    font-size: 16px;    
 }
 
 main {
-    margin: 100px;
+    margin: 20px 100px 20px 100px;
 }
 
 body {
@@ -193,6 +194,7 @@ h2 {
     position: relative;
     color: black;
     border: 1px solid black;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -288,8 +290,8 @@ footer p:first-child {
     grid-template-rows: auto
                         1fr
                         1fr
-                        1fr 
-                        1fr; 
+                        0.7fr 
+                        0.5fr; 
 
     grid-template-areas: 
     
@@ -298,8 +300,7 @@ footer p:first-child {
     "box-2  box-2  box-1"
     "box-3  box-3  box-1"
    /*  "box-4  box-4  box-4" */
-    "footer footer footer"
-    ;
+    "footer footer footer";
 
     
 }
